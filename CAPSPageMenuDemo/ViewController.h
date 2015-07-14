@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CAPSPageMenu.h"
+#import "TestCollectionViewController.h"
+#import "TestTableViewController.h"
+#import "TestViewController.h"
 
 @interface ViewController : UIViewController
-
-
+@property (nonatomic) CAPSPageMenu *pageMenu;
 @end
 
